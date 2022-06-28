@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/gray_eee">
+
+
+        <TableRow
+            android:id="@+id/viewToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40dp"
+            android:layout_marginTop="@dimen/_28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_32dp"
+                android:layout_height="@dimen/_32dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40dp"
+            android:layout_marginTop="@dimen/_40dp"
+            android:maxEms="7"
+            android:text="@string/title"
+            android:textColor="@color/gray_111"
+            android:textSize="@dimen/_30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewToolbar" />
+
+        <LinearLayout
+            android:id="@+id/viewTotalBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_budget"
+                android:textColor="@color/gray_777"
+                android:textSize="@dimen/_20sp" />
+
+            <TextView
+                android:id="@+id/tvTotalBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4dp"
+                android:text="@string/demo_budget"
+                android:textColor="@color/gray_222"
+                android:textSize="@dimen/_20sp" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewTotalBudget"
+            app:layout_constraintVertical_chainStyle="spread_inside">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/listItemHorizontalViewPager2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="50dp"
+                android:paddingEnd="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvDollarIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_40dp"
+            android:layout_marginTop="@dimen/_28dp"
+            android:text="@string/_dollar"
+            android:textColor="@color/gray_777"
+            android:textSize="@dimen/_60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCurrentItemBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_12dp"
+            android:layout_marginTop="@dimen/_28dp"
+            android:text="@string/budget_demo_other"
+            android:textColor="@color/gray_222"
+            android:textSize="@dimen/_60sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/tvDollarIcon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_28dp"
+            android:background="@drawable/bg_slide_bar_chart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDollarIcon">
+
+            <RelativeLayout
+                android:id="@+id/viewAdjustCurrentItemBudget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8dp"
+                android:layout_marginTop="@dimen/_40dp"
+                android:layout_marginEnd="@dimen/_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvGetItemValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_ruler_cursor"
+                    android:layout_width="@dimen/_8dp"
+                    android:layout_height="@dimen/_40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_42dp"
+                    app:cardBackgroundColor="@color/teal_500"
+                    app:cardCornerRadius="@dimen/_4dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvTitleCurrentBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_28dp"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:text="@string/demo_test_budget_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewAdjustCurrentItemBudget" />
+
+            <TextView
+                android:id="@+id/tvContentCurrentBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_12dp"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:maxEms="12"
+                android:text="@string/demo_test_budget_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTitleCurrentBudget" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSaveCurrentItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_24dp"
+                android:textColor="@color/gray_111"
+                android:background="@drawable/bg_btn_save"
+                android:paddingStart="@dimen/_12dp"
+                android:paddingTop="@dimen/_20dp"
+                android:paddingEnd="@dimen/_12dp"
+                android:paddingBottom="@dimen/_20dp"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gam.trainingcourse.annht2_advanceandroid_contentprovider_app1">
+
+    <permission android:name="gst.provider.READ_WRITE"/>
+
+    <application
+        android:name=".DataSavingApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnNHT2_AdvanceAndroid_ContentProvider_App1">
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:authorities="gam.trainingcourse.annht2_advanceandroid_contentprovider_app1.timetable_provider"
+            android:name=".timetable_provider.TimeTableProvider"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

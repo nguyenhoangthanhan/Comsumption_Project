@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">AnNHT2_AdvanceAndroid_Day6_Component2</string>
+    <string name="api_key">08085440c713f41a955032440859b74e</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="user_pass_title">User pass</string>
+    <string name="private_info">Private info</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-password</string>
+    <string name="confirm">Comfirm</string>
+    <string name="sign_in">Sign in</string>
+    <string name="result">Result</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="title_introduce">Sign in to continue</string>
+
+    <string name="geners">Geners</string>
+
+    <string name="home">Home</string>
+    <string name="games">Games</string>
+    <string name="movies">Movies</string>
+    <string name="books">Books</string>
+    <string name="music">Music</string>
+
+    <string name="title_bold_new_release">New Release Hit Films</string>
+    <string name="title_normal_new_release">Catch the latest blockbusters</string>
+    <string name="title_bold_bollywood_hits">Bollywood Hits</string>
+    <string name="title_bold_top_genres">Top genres</string>
+
+    <string name="for_you">For you</string>
+    <string name="top_selling">Top selling</string>
+    <string name="new_releases">New releases</string>
+    <string name="genres">Genres</string>
+    <string name="studying">Studying</string>
+    <string name="more"><font style='bold' color='#ff1a44'>MORE</font></string>
+
+    <string name="google_play_movies"><font><b>Google Play</b></font>
+        <font style='normal' color='#ff1a44'>Movies</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_books_fragment">Hello Books fragment</string>
+    <string name="hello_games_fragment">Hello Games fragment</string>
+    <string name="hello_home_fragment">Hello Home fragment</string>
+    <string name="hello_movies_fragment">Hello Movies fragment</string>
+    <string name="hello_music_fragment">Hello Music fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_For_you_fragment">Hello For you fragment</string>
+    <string name="hello_Genres_fragment">Hello Genres fragment</string>
+    <string name="hello_NewReleases_fragment">Hello New Releases fragment</string>
+    <string name="hello_TopSelling_fragment">Hello Top Selling fragment</string>
+    <string name="hello_Studying_fragment">Hello Studying fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="price">$ %.2f</string>
+
+    <string-array name="genres">
+        <item>Action</item>
+        <item>Comedy</item>
+        <item>Animation</item>
+        <item>Horror</item>
+        <item>Funny</item>
+        <item>America</item>
+        <item>Documentation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="genreUrl">
+        <item>https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg</item>
+        <item>https://www.elle.vn/wp-content/uploads/2013/09/20/Yeh-Jawaani-hai-Deewani-Poster-2.jpg</item>
+        <item>https://i.ytimg.com/vi/iRcNU6tZ65E/movieposter_en.jpg</item>
+        <item>https://assets-3.placeit.net/smart_templates/6617ce9a4e383f311476bf5fbc8afcd6/assets/jusl3qv9u2e2wjhdjtckihqw2rpevrvf.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMTM3OTYwOTM5NV5BMl5BanBnXkFtZTcwNjAzMjEzMQ@@._V1_.jpg</item>
+        <item>https://www.indiewire.com/wp-content/uploads/2017/09/another-earth-2011.jpg?w=674</item>
+        <item>https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1280x1280/products/89351/94616/The-Lord-Of-The-Rings-The-Two-Towers-Final-Style-Double-sided-original-movie-poster-buy-now-at-starstills__29242.1599759075.jpg?c=2?imbypass=on</item>
+        <item>https://m.media-amazon.com/images/I/81BUzFOlTQL._SY445_.jpg</item>
+    </string-array>
+
+</resources>

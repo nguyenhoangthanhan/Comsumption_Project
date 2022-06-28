@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_bottom" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_game"
+            android:title="@string/games"
+            android:icon="@drawable/ic_baseline_games_24" />
+
+        <item
+            android:id="@+id/nav_movies"
+            android:title="@string/movies"
+            android:icon="@drawable/ic_movie" />
+
+        <item
+            android:id="@+id/nav_books"
+            android:title="@string/books"
+            android:icon="@drawable/ic_baseline_book_24" />
+
+        <item
+            android:id="@+id/nav_music"
+            android:title="@string/music"
+            android:icon="@drawable/ic_baseline_music_note_24" />
+    </group>
+</menu>

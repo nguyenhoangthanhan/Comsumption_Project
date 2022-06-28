@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AnNHT2_AdvanceAndroid_ContentProvider_App!</string>
+    <string name="id_timetable">Timetable id:</string>
+    <string name="name_timetable">Timetable name:</string>
+
+    <string name="monday_s">Monday :</string>
+    <string name="tuesday_s">Tuesday :</string>
+    <string name="wednesday_s">Wednesday :</string>
+    <string name="thursday_s">Thursday :</string>
+    <string name="friday_s">Friday :</string>
+    <string name="saturday_s">Saturday :</string>
+    <string name="sunday_s">Sunday :</string>
+
+    <string name="add_timetable">Add timetable</string>
+    <string name="add_day_in_week">Add day in week</string>
+    <string name="add_time_table">Add time table</string>
+
+    <string-array name="day_in_weeks">
+        <item name="monday">Monday</item>
+        <item name="tuesday">Tuesday</item>
+        <item name="wednesday">Wednesday</item>
+        <item name="thursday">Thursday</item>
+        <item name="friday">Friday</item>
+        <item name="saturday">Saturday</item>
+        <item name="sunday">Sunday</item>
+    </string-array>
+
+    <string-array name="list_subjects">
+        <item name="languages">Languages</item>
+        <item name="literature">Literature</item>
+        <item name="communication">Communication</item>
+        <item name="mathematics">Mathematics</item>
+        <item name="philosophy">Philosophy</item>
+        <item name="natural_Sciences">Natural Sciences</item>
+        <item name="social_Sciences">Social Sciences</item>
+        <item name="geology">Geology</item>
+        <item name="history">History</item>
+        <item name="music">Music</item>
+        <item name="physiology">Physiology</item>
+        <item name="english">English</item>
+    </string-array>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

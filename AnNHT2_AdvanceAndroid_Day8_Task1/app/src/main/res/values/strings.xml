@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AnNHT2_AdvanceAndroid_Day8_Task1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="user_pass_title">User pass</string>
+    <string name="private_info">Private info</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-password</string>
+    <string name="confirm">Comfirm</string>
+    <string name="sign_in">Sign in</string>
+    <string name="result">Result</string>
+    <string name="welcome">Welcome</string>
+    <string name="title_introduce">Sign in to continue</string>
+    <string name="hello_result_fragment">Hello Result fragment</string>
+</resources>

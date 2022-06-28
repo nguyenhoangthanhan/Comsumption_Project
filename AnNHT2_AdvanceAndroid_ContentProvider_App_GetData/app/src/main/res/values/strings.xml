@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnNHT2_AdvanceAndroid_ContentProvider_App_GetData</string>
+    <string name="name_app">App client receiver data from server</string>
+    <string name="id_timetable">Timetable id:</string>
+    <string name="name_timetable">Timetable name:</string>
+
+    <string name="add_timetable">Add timetable</string>
+    <string name="add_day_in_week">Add day in week</string>
+    <string name="add_time_table">Add time table</string>
+    <string name="monday_s">Monday :</string>
+    <string name="tuesday_s">Tuesday :</string>
+    <string name="wednesday_s">Wednesday :</string>
+    <string name="thursday_s">Thursday :</string>
+    <string name="friday_s">Friday :</string>
+    <string name="saturday_s">Saturday :</string>
+    <string name="sunday_s">Sunday :</string>
+</resources>

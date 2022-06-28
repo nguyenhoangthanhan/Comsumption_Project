@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/budgetFragment">
+
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="gam.trainingcourse.annht2_mock_final_fresherandroid_07.view.fragment.BudgetFragment"
+        android:label="BudgetFragment"
+        tools:layout="@layout/fragment_budget"/>
+</navigation>

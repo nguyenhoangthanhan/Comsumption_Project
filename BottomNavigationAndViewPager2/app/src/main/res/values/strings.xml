@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BottomNavigationAndViewPager2</string>
+    <string name="demo1_bottom_nv">Demo bottom navigation 1</string>
+    <string name="demo2_bottom_nv">Demo bottom navigation 2</string>
+    <string name="demo3_bottom_nv">Demo bottom navigation 3</string>
+    <string name="beverage">beverage</string>
+    <string name="handyman">handyman</string>
+    <string name="headset">headset</string>
+</resources>

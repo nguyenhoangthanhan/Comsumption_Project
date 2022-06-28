@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="schoolWithStudents"
+            type="gam.trainingcourse.annht2_advanceandroid_day9_roomdb.model.normal.SchoolWithStudents" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_4dp"
+            android:paddingStart="@dimen/_8dp"
+            android:paddingEnd="@dimen/_8dp"
+            android:paddingTop="@dimen/_16dp"
+            android:paddingBottom="@dimen/_16dp"
+            android:background="@drawable/bg_item_school"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_school"
+                android:contentDescription="@string/img_university" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_12dp"
+                android:layout_marginEnd="@dimen/_12dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameSchool"
+                    android:textColor="@color/black222"
+                    android:textSize="@dimen/_18sp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{schoolWithStudents.school._school_name}" />
+
+                <TextView
+                    android:id="@+id/tvAddressSchool"
+                    android:textSize="@dimen/_18sp"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{schoolWithStudents.school._school_address}" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgDeleteSchool"
+                android:layout_gravity="center_vertical"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                app:srcCompat="@drawable/ic_baseline_cancel_24"
+                android:contentDescription="@string/img_delete_school" />
+
+            <ImageView
+                android:id="@+id/imgShowStudentsOfSchool"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_8dp"
+                android:layout_marginEnd="@dimen/_12dp"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                app:srcCompat="@drawable/ic_extend"
+                android:contentDescription="@string/img_extend_students" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:id="@+id/rvSchoolWithStudents"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</layout>

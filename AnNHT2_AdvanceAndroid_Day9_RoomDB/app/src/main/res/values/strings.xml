@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AnNHT2_AdvanceAndroid_Day9_RoomDB</string>
+    <string name="img_student">Image student</string>
+    <string name="img_university">Image university</string>
+    <string name="img_extend_students">Image extend students</string>
+    <string name="img_delete_student">Image delete student</string>
+    <string name="img_delete_school">Image delete school</string>
+    <string name="number_demo_300">300</string>
+
+    <string name="add_school_s">Add school</string>
+    <string name="add_student_s">Add student</string>
+    <string name="name_school_s">Name school</string>
+    <string name="name_student_s">Name student</string>
+    <string name="address_school_s">Address school</string>
+    <string name="grade_student_s">Grade student</string>
+
+    <string name="add_new_school_s">Add new school</string>
+    <string name="add_new_student_s">Add new student</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

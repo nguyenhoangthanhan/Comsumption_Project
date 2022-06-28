@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AnNHT2_Mock_Final_FresherAndroid_07</string>
+    <string name="total_budget">Total budget is </string>
+    <string name="demo_budget">$1,500</string>
+    <string name="title">Set up a monthly budget goal</string>
+    <string name="save">Save</string>
+    <string name="_dollar">$</string>
+    <string name="item_image_desc">Budget Item Image</string>
+
+
+    <string name="demo_test_budget_title">Normal</string>
+    <string name="demo_test_budget_content" tools:ignore="Typos">
+        Sometimes, you can eat in cafe
+Up to 3% of economy
+    </string>
+
+    <string name="cafe">Cafe</string>
+    <string name="grocery">Grocery</string>
+    <string name="taxi">Taxi</string>
+    <string name="gym">Gym</string>
+    <string name="messenger">Messenger</string>
+    <string name="demo_budget_item">$ 255</string>
+    <string name="budget_demo_other">20</string>
+</resources>

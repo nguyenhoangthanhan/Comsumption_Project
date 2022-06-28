@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listTimeTableFragment">
+
+    <fragment
+        android:id="@+id/listTimeTableFragment"
+        android:name="gam.trainingcourse.annht2_advanceandroid_contentprovider_app1.view.fragment.ListTimeTableFragment"
+        android:label="ListTimeTableFragment"
+        tools:layout="@layout/fragment_list_timetable">
+        <action
+            android:id="@+id/action_listTimeTableFragment_to_addTimeTableFragment"
+            app:destination="@id/addTimeTableFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addTimeTableFragment"
+        android:name="gam.trainingcourse.annht2_advanceandroid_contentprovider_app1.view.fragment.AddTimeTableFragment"
+        android:label="AddTimeTableFragment"
+        tools:layout="@layout/fragment_add_timetable">
+        <action
+            android:id="@+id/action_addTimeTableFragment_to_listTimeTableFragment"
+            app:destination="@id/listTimeTableFragment" />
+    </fragment>
+</navigation>

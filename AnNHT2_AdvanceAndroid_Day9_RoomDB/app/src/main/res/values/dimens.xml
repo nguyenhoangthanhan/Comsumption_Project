@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_1000dp">1000dp</dimen>
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <dimen name="_28dp">28dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_28sp">28sp</dimen>
+    <dimen name="_24sp">24sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_18sp">18sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+
+    <style name="spinnerSchoolStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+</resources>

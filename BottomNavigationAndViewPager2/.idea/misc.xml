@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/drawable/ic_baseline_handyman_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/drawable/ic_beverage_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/layout/fragment_demo1.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/layout/fragment_demo2.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/layout/fragment_demo3.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/menu/menu_demo_bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProject/BottomNavigationAndViewPager2/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

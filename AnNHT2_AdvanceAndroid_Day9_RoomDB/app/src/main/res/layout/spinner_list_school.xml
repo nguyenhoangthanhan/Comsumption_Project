@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:ellipsize="marquee"
+    android:background="@color/blue_bland_E37F77"
+    android:padding="@dimen/_8dp"
+    android:id="@+id/txtSchoolNameSpinner"
+    android:layout_gravity="center_vertical"
+    android:textColor="@color/red_bland_E37F77"
+    android:textSize="@dimen/_18sp"
+    android:paddingStart="@dimen/_32dp"
+    android:paddingEnd="@dimen/_12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/name_school_s"
+    tools:ignore="UseCompoundDrawables"
+    app:drawableLeftCompat="@drawable/ic_school">
+</TextView>

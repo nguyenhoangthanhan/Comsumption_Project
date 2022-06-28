@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_beverage_nv"
+        android:title="@string/beverage"
+        android:icon="@drawable/ic_beverage_24" />
+
+    <item android:id="@+id/action_handyman_nv"
+        android:title="@string/handyman"
+        android:icon="@drawable/ic_baseline_handyman_24" />
+
+    <item android:id="@+id/action_headset_nv"
+        android:title="@string/headset"
+        android:icon="@drawable/ic_baseline_headset_mic_24" />
+</menu>
